@@ -1,0 +1,75 @@
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: ./docker/php
+      dockerfile: dockerfile
+    container_name: reserva-app
+    restart: unless-stopped
+    working_dir: /var/www
+    volumes:
+      - ./reserva-app:/var/www
+    ports:
+      - "9000:9000"
+    networks:
+      - reserva-network
+    depends_on:
+      - db
+
+  scheduler:
+    build:
+      context: ./docker/php
+      dockerfile: dockerfile
+    container_name: reserva-scheduler
+    restart: unless-stopped
+    working_dir: /var/www
+    volumes:
+      - ./reserva-app:/var/www
+      - ./docker/supervisor/conf.d:/etc/supervisor/conf.d
+      - ./docker/supervisor/logs:/var/log/supervisor
+    command: supervisord -c /etc/supervisor/supervisord.conf
+    networks:
+      - reserva-network
+    depends_on:
+      - db
+
+  nginx:
+    image: nginx:latest
+    container_name: reserva-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./reserva-app:/var/www
+      - ./docker/nginx/conf.d:/etc/nginx/conf.d
+      - ./docker/nginx/ssl:/etc/nginx/ssl
+    networks:
+      - reserva-network
+    depends_on:
+      - app
+
+  db:
+    image: mysql:8.0
+    container_name: reserva-db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE:-reserva_db}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD:-root}
+      MYSQL_PASSWORD: ${DB_PASSWORD:-password}
+      MYSQL_USER: ${DB_USERNAME:-reserva_user}
+    volumes:
+      - dbdata:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    networks:
+      - reserva-network
+
+networks:
+  reserva-network:
+    driver: bridge
+
+volumes:
+  dbdata:
+    driver: local
