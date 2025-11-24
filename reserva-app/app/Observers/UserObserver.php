@@ -27,6 +27,16 @@ class UserObserver
         //
     }
 
+    public function saving(User $user): void
+    {
+        //
+    }
+
+    public function saved(User $user): void
+    {
+        //
+    }
+
     public function deleting(User $user): void
     {
         //

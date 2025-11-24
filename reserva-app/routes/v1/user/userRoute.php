@@ -1,4 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\v1\Users\UserController;
 use Illuminate\Support\Facades\Route;
-use Symfony\Component\HttpFoundation\Request;
+
+Route::apiResource('users', UserController::class);
