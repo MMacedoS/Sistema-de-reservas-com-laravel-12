@@ -4,6 +4,7 @@
 
 ```
 docker-compose.yml       # Configuração dos containers
+reserva-app   #api laravel para reservas
 docker/
 ├── nginx/              # Configuração do Nginx
 │   └── conf.d/
