@@ -2116,3 +2116,620 @@
 2025-11-24 18:30:24,255 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
 2025-11-24 18:30:24,559 INFO RPC interface 'supervisor' initialized
 2025-11-24 18:30:24,559 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:31:24,985 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:31:24,985 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:31:24,985 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:31:25,290 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:31:25,290 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:31:25,291 INFO daemonizing the supervisord process
+2025-11-24 18:32:25,618 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:32:25,618 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:32:25,618 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:32:25,927 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:32:25,928 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:33:26,282 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:33:26,282 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:33:26,282 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:33:26,593 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:33:26,593 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:34:26,958 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:34:26,958 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:34:26,958 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:34:27,262 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:34:27,262 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:35:27,625 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:35:27,625 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:35:27,625 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:35:27,929 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:35:27,929 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:35:27,931 INFO daemonizing the supervisord process
+2025-11-24 18:36:28,281 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:36:28,281 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:36:28,281 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:36:28,591 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:36:28,592 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:37:28,973 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:37:28,973 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:37:28,973 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:37:29,283 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:37:29,283 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:38:29,675 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:38:29,675 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:38:29,675 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:38:29,986 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:38:29,986 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:39:30,372 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:39:30,372 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:39:30,372 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:39:30,682 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:39:30,682 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:40:31,063 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:40:31,063 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:40:31,063 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:40:31,373 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:40:31,373 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:41:31,762 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:41:31,762 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:41:31,762 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:41:32,072 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:41:32,072 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:42:32,553 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:42:32,554 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:42:32,554 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:42:32,857 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:42:32,857 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:43:33,209 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:43:33,210 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:43:33,210 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:43:33,519 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:43:33,519 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:44:33,863 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:44:33,863 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:44:33,863 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:44:34,168 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:44:34,169 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:45:34,542 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:45:34,542 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:45:34,542 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:45:34,846 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:45:34,846 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:45:34,848 INFO daemonizing the supervisord process
+2025-11-24 18:46:35,187 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:46:35,187 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:46:35,187 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:46:35,498 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:46:35,498 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:47:35,882 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:47:35,882 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:47:35,882 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:47:36,187 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:47:36,188 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:47:36,190 INFO daemonizing the supervisord process
+2025-11-24 18:48:36,558 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:48:36,558 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:48:36,558 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:48:36,862 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:48:36,862 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:48:36,863 INFO daemonizing the supervisord process
+2025-11-24 18:49:37,232 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:49:37,232 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:49:37,232 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:49:37,544 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:49:37,544 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:50:37,931 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:50:37,931 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:50:37,931 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:50:38,241 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:50:38,241 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:50:38,244 INFO daemonizing the supervisord process
+2025-11-24 18:51:38,604 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:51:38,604 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:51:38,604 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:51:38,913 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:51:38,913 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:52:39,337 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:52:39,337 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:52:39,337 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:52:39,643 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:52:39,643 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:53:40,027 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:53:40,027 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:53:40,027 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:53:40,334 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:53:40,334 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:54:40,706 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:54:40,706 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:54:40,706 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:54:41,011 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:54:41,011 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:54:41,012 INFO daemonizing the supervisord process
+2025-11-24 18:55:41,395 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:55:41,395 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:55:41,395 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:55:41,700 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:55:41,700 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:56:42,073 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:56:42,073 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:56:42,073 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:56:42,383 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:56:42,383 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:57:42,812 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:57:42,812 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:57:42,812 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:57:43,115 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:57:43,116 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:58:43,438 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:58:43,438 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:58:43,438 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:58:43,742 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:58:43,742 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 18:59:44,068 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 18:59:44,068 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 18:59:44,068 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 18:59:44,378 INFO RPC interface 'supervisor' initialized
+2025-11-24 18:59:44,378 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:00:44,718 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:00:44,718 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:00:44,718 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:00:45,023 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:00:45,023 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:00:45,025 INFO daemonizing the supervisord process
+2025-11-24 19:01:45,378 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:01:45,379 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:01:45,379 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:01:45,685 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:01:45,686 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:02:46,050 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:02:46,050 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:02:46,050 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:02:46,360 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:02:46,360 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:03:46,724 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:03:46,725 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:03:46,725 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:03:47,028 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:03:47,028 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:04:47,405 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:04:47,405 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:04:47,405 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:04:47,709 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:04:47,709 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:05:48,083 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:05:48,083 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:05:48,083 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:05:48,387 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:05:48,387 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:05:48,389 INFO daemonizing the supervisord process
+2025-11-24 19:06:48,732 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:06:48,732 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:06:48,732 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:06:49,042 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:06:49,042 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:07:49,429 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:07:49,429 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:07:49,429 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:07:49,739 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:07:49,739 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:08:50,131 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:08:50,131 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:08:50,131 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:08:50,441 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:08:50,441 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:09:50,808 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:09:50,808 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:09:50,809 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:09:51,114 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:09:51,114 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:09:51,116 INFO daemonizing the supervisord process
+2025-11-24 19:10:51,430 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:10:51,430 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:10:51,430 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:10:51,740 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:10:51,741 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:11:52,139 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:11:52,139 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:11:52,139 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:11:52,444 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:11:52,444 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:12:52,791 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:12:52,791 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:12:52,791 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:12:53,101 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:12:53,102 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:13:53,457 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:13:53,458 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:13:53,458 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:13:53,768 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:13:53,769 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:14:54,170 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:14:54,170 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:14:54,170 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:14:54,480 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:14:54,480 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:15:54,849 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:15:54,849 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:15:54,849 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:15:55,159 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:15:55,160 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:16:55,595 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:16:55,595 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:16:55,595 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:16:55,905 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:16:55,905 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:16:55,910 INFO daemonizing the supervisord process
+2025-11-24 19:17:56,288 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:17:56,288 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:17:56,288 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:17:56,599 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:17:56,599 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:18:57,006 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:18:57,006 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:18:57,006 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:18:57,316 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:18:57,316 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:19:57,704 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:19:57,704 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:19:57,704 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:19:58,015 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:19:58,015 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:20:58,429 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:20:58,429 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:20:58,429 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:20:58,740 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:20:58,740 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:21:59,154 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:21:59,154 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:21:59,154 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:21:59,464 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:21:59,465 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:22:59,870 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:22:59,870 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:22:59,870 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:23:00,174 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:23:00,174 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:23:00,176 INFO daemonizing the supervisord process
+2025-11-24 19:24:00,544 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:24:00,544 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:24:00,544 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:24:00,848 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:24:00,848 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:24:00,850 INFO daemonizing the supervisord process
+2025-11-24 19:25:01,199 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:25:01,199 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:25:01,199 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:25:01,506 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:25:01,506 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:26:01,864 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:26:01,864 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:26:01,864 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:26:02,174 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:26:02,174 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:27:02,569 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:27:02,569 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:27:02,569 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:27:02,879 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:27:02,879 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:28:03,266 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:28:03,266 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:28:03,266 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:28:03,571 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:28:03,571 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:29:03,923 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:29:03,923 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:29:03,923 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:29:04,228 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:29:04,229 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:30:04,582 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:30:04,582 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:30:04,582 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:30:04,888 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:30:04,888 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:30:04,890 INFO daemonizing the supervisord process
+2025-11-24 19:31:05,254 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:31:05,254 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:31:05,254 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:31:05,564 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:31:05,564 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:32:05,977 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:32:05,977 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:32:05,977 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:32:06,285 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:32:06,285 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:33:06,667 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:33:06,667 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:33:06,667 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:33:06,975 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:33:06,975 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:33:06,978 INFO daemonizing the supervisord process
+2025-11-24 19:34:07,303 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:34:07,303 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:34:07,303 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:34:07,614 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:34:07,614 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:35:08,006 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:35:08,006 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:35:08,006 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:35:08,316 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:35:08,316 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:35:08,322 INFO daemonizing the supervisord process
+2025-11-24 19:36:08,709 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:36:08,709 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:36:08,710 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:36:09,019 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:36:09,020 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:37:09,419 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:37:09,419 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:37:09,419 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:37:09,729 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:37:09,729 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:38:10,113 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:38:10,113 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:38:10,114 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:38:10,421 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:38:10,421 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:39:10,816 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:39:10,816 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:39:10,816 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:39:11,120 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:39:11,120 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:39:11,122 INFO daemonizing the supervisord process
+2025-11-24 19:40:11,458 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:40:11,458 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:40:11,458 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:40:11,762 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:40:11,762 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:41:12,111 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:41:12,111 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:41:12,111 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:41:12,415 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:41:12,415 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:41:12,417 INFO daemonizing the supervisord process
+2025-11-24 19:42:12,766 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:42:12,766 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:42:12,766 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:42:13,076 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:42:13,076 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:43:13,487 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:43:13,487 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:43:13,487 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:43:13,796 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:43:13,796 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:44:14,138 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:44:14,138 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:44:14,138 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:44:14,448 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:44:14,448 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:45:14,830 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:45:14,830 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:45:14,830 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:45:15,140 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:45:15,140 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:46:15,526 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:46:15,526 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:46:15,526 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:46:15,830 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:46:15,830 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:46:15,831 INFO daemonizing the supervisord process
+2025-11-24 19:47:16,157 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:47:16,157 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:47:16,157 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:47:16,467 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:47:16,467 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:48:16,851 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:48:16,851 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:48:16,851 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:48:17,160 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:48:17,161 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:49:17,529 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:49:17,529 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:49:17,529 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:49:17,839 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:49:17,839 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:50:18,227 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:50:18,227 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:50:18,227 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:50:18,537 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:50:18,537 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:51:18,911 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:51:18,911 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:51:18,911 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:51:19,221 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:51:19,222 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:52:19,614 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:52:19,614 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:52:19,614 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:52:19,918 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:52:19,918 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:52:19,919 INFO daemonizing the supervisord process
+2025-11-24 19:53:20,258 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:53:20,258 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:53:20,258 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:53:20,568 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:53:20,569 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:54:20,976 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:54:20,976 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:54:20,976 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:54:21,283 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:54:21,283 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:54:21,287 INFO daemonizing the supervisord process
+2025-11-24 19:55:21,658 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:55:21,658 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:55:21,658 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:55:21,961 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:55:21,962 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:56:22,311 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:56:22,311 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:56:22,311 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:56:22,622 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:56:22,622 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:57:23,014 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:57:23,014 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:57:23,014 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:57:23,327 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:57:23,327 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:57:23,332 INFO daemonizing the supervisord process
+2025-11-24 19:58:23,729 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:58:23,729 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:58:23,729 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:58:24,039 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:58:24,039 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 19:59:24,440 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 19:59:24,440 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 19:59:24,440 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 19:59:24,743 INFO RPC interface 'supervisor' initialized
+2025-11-24 19:59:24,743 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:00:25,096 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:00:25,096 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:00:25,096 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:00:25,401 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:00:25,401 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:01:25,748 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:01:25,748 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:01:25,748 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:01:26,058 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:01:26,058 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:02:26,484 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:02:26,484 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:02:26,484 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:02:26,789 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:02:26,789 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:03:27,223 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:03:27,223 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:03:27,223 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:03:27,527 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:03:27,527 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:03:27,528 INFO daemonizing the supervisord process
+2025-11-24 20:04:27,877 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:04:27,877 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:04:27,877 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:04:28,187 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:04:28,187 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:05:28,513 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:05:28,513 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:05:28,513 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:05:28,823 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:05:28,823 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:06:29,206 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:06:29,206 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:06:29,206 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:06:29,517 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:06:29,517 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:07:29,865 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:07:29,865 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:07:29,865 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:07:30,174 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:07:30,174 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:08:30,546 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:08:30,546 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:08:30,546 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:08:30,856 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:08:30,856 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:09:31,230 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:09:31,230 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:09:31,230 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:09:31,540 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:09:31,540 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:10:31,934 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:10:31,934 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:10:31,934 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:10:32,239 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:10:32,239 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:11:32,646 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:11:32,646 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:11:32,646 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:11:32,956 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:11:32,956 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:12:33,316 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:12:33,316 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:12:33,316 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:12:33,627 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:12:33,627 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:13:34,014 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:13:34,014 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:13:34,014 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:13:34,324 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:13:34,324 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:13:34,330 INFO daemonizing the supervisord process
+2025-11-24 20:14:34,727 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:14:34,727 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:14:34,727 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:14:35,031 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:14:35,031 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:15:35,382 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:15:35,382 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:15:35,382 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:15:35,692 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:15:35,692 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:16:36,116 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:16:36,116 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:16:36,116 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:16:36,426 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:16:36,426 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:17:36,818 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:17:36,818 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:17:36,818 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:17:37,128 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:17:37,129 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:18:37,587 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:18:37,587 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:18:37,587 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:18:37,891 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:18:37,891 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:18:37,892 INFO daemonizing the supervisord process
+2025-11-24 20:19:38,239 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:19:38,239 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:19:38,239 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:19:38,549 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:19:38,549 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:19:38,554 INFO daemonizing the supervisord process
+2025-11-24 20:20:38,949 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:20:38,949 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:20:38,949 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:20:39,259 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:20:39,259 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:21:39,684 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:21:39,684 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:21:39,684 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:21:39,992 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:21:39,992 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:22:40,365 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:22:40,365 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:22:40,365 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:22:40,669 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:22:40,669 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:23:41,015 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:23:41,015 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:23:41,015 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:23:41,326 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:23:41,326 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:24:41,692 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:24:41,692 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:24:41,692 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:24:42,003 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:24:42,003 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:25:42,390 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:25:42,390 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:25:42,390 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:25:42,703 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:25:42,703 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:25:42,709 INFO daemonizing the supervisord process
+2025-11-24 20:26:43,132 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:26:43,132 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:26:43,132 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:26:43,441 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:26:43,442 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:27:43,857 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:27:43,858 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:27:43,858 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:27:44,162 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:27:44,162 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:28:44,494 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:28:44,494 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:28:44,494 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:28:44,801 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:28:44,801 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-11-24 20:29:45,188 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-24 20:29:45,188 INFO Included extra file "/etc/supervisor/conf.d/laravel-queue.conf" during parsing
+2025-11-24 20:29:45,188 INFO Included extra file "/etc/supervisor/conf.d/laravel-schedule.conf" during parsing
+2025-11-24 20:29:45,495 INFO RPC interface 'supervisor' initialized
+2025-11-24 20:29:45,495 CRIT Server 'unix_http_server' running without any HTTP authentication checking
