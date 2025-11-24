@@ -1,0 +1,2 @@
+.env
+docker/supervisor/logs/supervisord.log
