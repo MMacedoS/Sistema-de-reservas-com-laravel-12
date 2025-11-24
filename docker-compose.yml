@@ -3,8 +3,8 @@ version: "3.8"
 services:
   app:
     build:
-      context: ./docker/php
-      dockerfile: dockerfile
+      context: .
+      dockerfile: ./docker/php/dockerfile
     container_name: reserva-app
     restart: unless-stopped
     working_dir: /var/www
@@ -19,8 +19,8 @@ services:
 
   scheduler:
     build:
-      context: ./docker/php
-      dockerfile: dockerfile
+      context: .
+      dockerfile: ./docker/php/dockerfile
     container_name: reserva-scheduler
     restart: unless-stopped
     working_dir: /var/www
