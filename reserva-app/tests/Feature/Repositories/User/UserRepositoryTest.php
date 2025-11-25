@@ -143,4 +143,48 @@ class UserRepositoryTest extends TestCase
         $user = $this->userRepository->create($data);
         $this->assertNull($user);
     }
+
+    public function test_create_user_with_email_null(): void
+    {
+        $data = [
+            'name' => 'Test User',
+            'email' => null,
+            'password' => Hash::make('password'),
+            'role' => 'gerente',
+            'status' => 'active',
+        ];
+        $user = $this->userRepository->create($data);
+        $this->assertNull($user);
+    }
+
+    public function test_create_user_with_password_null(): void
+    {
+        $data = [
+            'name' => 'Test User',
+            'email' => 'test@example.com',
+            'password' => null,
+            'role' => 'gerente',
+            'status' => 'active',
+        ];
+        $user = $this->userRepository->create($data);
+        $this->assertNull($user);
+    }
+
+    public function test_delete_user(): void
+    {
+        $user = $this->mockUser();
+
+        $this->userRepository->delete($user->id);
+
+        $this->assertDatabaseMissing('users', [
+            'id' => $user->id,
+        ]);
+    }
+
+    public function test_delete_user_with_wrong_id(): void
+    {
+        $result = $this->userRepository->delete(99);
+
+        $this->assertFalse($result);
+    }
 }
