@@ -11,14 +11,7 @@ trait ServiceTrait
         if (is_null($id)) {
             return null;
         }
-
-        $cacheKey = $this->model->getTable() . '_' . $id;
-
-        return $this->getFromCacheOrFetch(
-            $cacheKey,
-            fn() => $this->model->find($id),
-            300
-        );
+        return $this->model->find($id);
     }
 
     private function model()
@@ -54,13 +47,10 @@ trait ServiceTrait
 
     public function findByUuid(string $uuid)
     {
-        $cacheKey = $this->model->getTable() . '_uuid_' . $uuid;
-
-        return $this->getFromCacheOrFetch(
-            $cacheKey,
-            fn() => $this->model->where('uuid', $uuid)->first(),
-            300
-        );
+        if (is_null($uuid)) {
+            return null;
+        }
+        return $this->model->where('uuid', $uuid)->first();
     }
 
     public function count()

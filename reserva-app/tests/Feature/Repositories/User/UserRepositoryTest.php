@@ -57,4 +57,90 @@ class UserRepositoryTest extends TestCase
         $this->assertEquals('Test User', $user->name);
         $this->assertEquals('test@example.com', $user->email);
     }
+
+    public function test_create_user_with_empty_params(): void
+    {
+        $data = [];
+
+        $user = $this->userRepository->create($data);
+
+        $this->assertNull($user);
+    }
+
+    public function test_update_user_status(): void
+    {
+        $user = $this->mockUser();
+
+        $data = [
+            'status' => 'inactive',
+        ];
+
+        $updatedUser = $this->userRepository->update($user->id, $data);
+
+        $this->assertNotNull($updatedUser);
+        $this->assertEquals('inactive', $updatedUser->status);
+    }
+
+    public function test_update_user_with_wrong_id(): void
+    {
+        $data = [
+            'status' => 'inactive',
+        ];
+
+        $updatedUser = $this->userRepository->update(99, $data);
+
+        $this->assertNull($updatedUser);
+    }
+
+    public function test_update_user_with_empty_data(): void
+    {
+        $user = $this->mockUser();
+
+        $data = [];
+
+        $updatedUser = $this->userRepository->update($user->id, $data);
+
+        $this->assertNull($updatedUser);
+    }
+
+    public function test_create_user_with_missing_status(): void
+    {
+        $data = [
+            'name' => 'Test User',
+            'email' => 'test@example.com',
+            'password' => Hash::make('password'),
+            'role' => 'gerente',
+        ];
+        $user = $this->userRepository->create($data);
+
+        $this->assertNotNull($user);
+        $this->assertEquals('active', $user->status);
+    }
+
+    public function test_create_user_with_null_status(): void
+    {
+        $data = [
+            'name' => 'Test User',
+            'email' => 'test@example.com',
+            'password' => Hash::make('password'),
+            'role' => 'gerente',
+            'status' => null,
+        ];
+        $user = $this->userRepository->create($data);
+        $this->assertNotNull($user);
+        $this->assertEquals('active', $user->status);
+    }
+
+    public function test_create_user_with_name_null(): void
+    {
+        $data = [
+            'name' => null,
+            'email' => 'test@example.com',
+            'password' => Hash::make('password'),
+            'role' => 'gerente',
+            'status' => 'active',
+        ];
+        $user = $this->userRepository->create($data);
+        $this->assertNull($user);
+    }
 }

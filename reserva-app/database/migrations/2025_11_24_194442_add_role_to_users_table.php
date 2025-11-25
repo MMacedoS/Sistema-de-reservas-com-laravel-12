@@ -11,9 +11,16 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->enum('role', ['recepcionista', 'admin', 'gerente', 'garcom'])->default('recepcionista')->after('email');
-        });
+        if (env('DB_CONNECTION') == 'testing_memory') {
+            // recriado em outras migrations
+            return;
+        }
+
+        if (env('DB_CONNECTION') != 'testing_memory') {
+            Schema::table('users', function (Blueprint $table) {
+                $table->enum('role', ['recepcionista', 'admin', 'gerente', 'garcom'])->nullable()->default('recepcionista')->after('email');
+            });
+        }
     }
 
     /**
@@ -21,8 +28,10 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::table('users', function (Blueprint $table) {
-            $table->dropColumn('role');
-        });
+        if (env('DB_CONNECTION') != 'testing_memory') {
+            Schema::table('users', function (Blueprint $table) {
+                $table->dropColumn('role');
+            });
+        }
     }
 };
