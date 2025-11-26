@@ -24,11 +24,11 @@ abstract class TestCase extends BaseTestCase
         parent::tearDown();
     }
 
-    public function mockUser($email = 'testuser@example.com', $role = 'admin'): User
+    public function mockUser($email = 'testuser@example.com', $role = 'admin', $name = 'Test User'): User
     {
         return User::factory()->create(
             [
-                'name' => 'Test User',
+                'name' => $name,
                 'email' => $email,
                 'role' => $role,
                 'uuid' => Str::uuid()->toString(),
@@ -49,16 +49,22 @@ abstract class TestCase extends BaseTestCase
         );
     }
 
-    public function mockPessoaFisica(string $email = 'testuser@example.com')
+    public function mockPessoaFisica(array $data = [
+        'email' => 'testuser@example.com',
+        'cpf' => '123.456.789-00',
+        'name' => 'Test User',
+        'data_nascimento' => '1990-01-01',
+        'situacao' => 'ativo',
+    ])
     {
-        $user = $this->mockUser($email);
+        $user = $this->mockUser($data['email'] ?? 'testuser@example.com', 'admin', $data['name'] ?? 'Test User');
 
         $pessoaFisicaData =
             [
                 'id_usuario' => $user->id,
                 'nome' => $user->name,
-                'cpf' => '123.456.789-00',
-                'data_nascimento' => '1990-01-01',
+                'cpf' => $data['cpf'] ?? '123.456.789-00',
+                'data_nascimento' => $data['data_nascimento'] ?? '1990-01-01',
                 'email' => $user->email,
                 'telefone' => '(11) 91234-5678',
                 'endereco' => 'Rua Teste, 123',
@@ -68,7 +74,7 @@ abstract class TestCase extends BaseTestCase
                 'genero' => 'Masculino',
                 'estado_civil' => 'Solteiro',
                 'profissao' => 'Desenvolvedor',
-                'situacao' => 'ativo',
+                'situacao' => $data['situacao'] ?? 'ativo',
             ];
 
         return PessoaFisica::factory()->create($pessoaFisicaData);

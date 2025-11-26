@@ -45,9 +45,9 @@ class PessoaFisicaRepository implements IPessoaFisicaRepository
         }
         $pessoasFisicas = $this->model->select();
 
-        $pessoaFisicas = $this->applyCriteria($pessoasFisicas, $criteria, $orWheres);
-        $pessoaFisicas = $this->applyOrders($pessoasFisicas, $orders);
-        return $pessoaFisicas->get();
+        $pessoasFisicas = $this->applyCriteria($pessoasFisicas, $criteria, $orWheres);
+        $pessoasFisicas = $this->applyOrders($pessoasFisicas, $orders);
+        return $pessoasFisicas->get();
     }
 
     public function create(array $data)
@@ -60,7 +60,7 @@ class PessoaFisicaRepository implements IPessoaFisicaRepository
             $pessoaFisica = $this->model->create($data);
             return $pessoaFisica;
         } catch (\Exception $e) {
-            throw new \Exception('Error creating PessoaFisica: ' . $e->getMessage());
+            return null;
         }
     }
 
