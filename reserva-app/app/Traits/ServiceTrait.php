@@ -57,4 +57,35 @@ trait ServiceTrait
     {
         return $this->model->count();
     }
+
+    private function applyCriteria($query, array $criteria = [], array $orWheres = [])
+    {
+        if (!empty($criteria)) {
+            $query->where(function ($query) use ($criteria) {
+                foreach ($criteria as $field => $value) {
+                    $query->where($field, $value);
+                }
+            });
+        }
+
+        if (!empty($orWheres)) {
+            $query->where(function ($query) use ($orWheres) {
+                foreach ($orWheres as $field => $value) {
+                    $query->orWhere($field, $value);
+                }
+            });
+        }
+
+        return $query;
+    }
+
+    private function applyOrders($query, array $orders = [])
+    {
+        if (!empty($orders)) {
+            foreach ($orders as $field => $direction) {
+                $query->orderBy($field, $direction);
+            }
+        }
+        return $query;
+    }
 }

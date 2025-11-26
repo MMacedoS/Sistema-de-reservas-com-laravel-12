@@ -5,6 +5,7 @@ namespace App\Models;
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
 
 use App\Enums\RolePermissionEnum;
+use App\Models\Person\PessoaFisica;
 use App\Traits\CleanNullFieldsTrait;
 use App\Traits\HasUuid;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
@@ -62,5 +63,10 @@ class User extends Authenticatable
             'password' => 'hashed',
             'role' => RolePermissionEnum::class,
         ];
+    }
+
+    public function pessoaFisica()
+    {
+        return $this->hasOne(PessoaFisica::class, 'id_usuario');
     }
 }

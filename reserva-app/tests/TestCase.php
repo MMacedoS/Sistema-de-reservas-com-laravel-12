@@ -2,6 +2,7 @@
 
 namespace Tests;
 
+use App\Models\Person\PessoaFisica;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Illuminate\Foundation\Testing\TestCase as BaseTestCase;
@@ -46,6 +47,31 @@ abstract class TestCase extends BaseTestCase
                 'status' => 'active',
             ]
         );
+    }
+
+    public function mockPessoaFisica(string $email = 'testuser@example.com')
+    {
+        $user = $this->mockUser($email);
+
+        $pessoaFisicaData =
+            [
+                'id_usuario' => $user->id,
+                'nome' => $user->name,
+                'cpf' => '123.456.789-00',
+                'data_nascimento' => '1990-01-01',
+                'email' => $user->email,
+                'telefone' => '(11) 91234-5678',
+                'endereco' => 'Rua Teste, 123',
+                'cidade' => 'Cidade Teste',
+                'estado' => 'Estado Teste',
+                'cep' => '12345-678',
+                'genero' => 'Masculino',
+                'estado_civil' => 'Solteiro',
+                'profissao' => 'Desenvolvedor',
+                'situacao' => 'ativo',
+            ];
+
+        return PessoaFisica::factory()->create($pessoaFisicaData);
     }
 
     public function getAuthorizationHeader($email = 'teste@admin.com'): array
