@@ -9,4 +9,5 @@ Route::get('/status', function (Request $request) {
 
 Route::prefix('v1')->group(function () {
     require __DIR__ . '/v1/user/userRoute.php';
+    require __DIR__ . '/v1/auth/authRoute.php';
 });

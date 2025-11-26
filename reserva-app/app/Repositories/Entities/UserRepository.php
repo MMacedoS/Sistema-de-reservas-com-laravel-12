@@ -22,22 +22,38 @@ class UserRepository implements IUserRepository
             return null;
         }
 
-        $user = $this->model->where('email', $email)->first();
+        $user = $this->model->whereEmail($email)->first();
         return $user;
     }
 
-    public function all(array $filters = [])
+    public function all(array $criteria = [], array $orderBy = [], array $orWhereCriteria = [])
     {
         $users = $this->model->select();
 
-        $users->where(function ($query) use ($filters) {
-            if (isset($filters['name'])) {
-                $query->where('name', 'like', '%' . $filters['name'] . '%');
+        if (!empty($criteria)) {
+            $users->where(function ($query) use ($criteria) {
+                if (isset($criteria['name'])) {
+                    $query->where('name', 'like', '%' . $criteria['name'] . '%');
+                }
+                if (isset($criteria['email'])) {
+                    $query->where('email', 'like', '%' . $criteria['email'] . '%');
+                }
+            });
+        }
+
+        if (!empty($orWhereCriteria)) {
+            $users->where(function ($query) use ($orWhereCriteria) {
+                foreach ($orWhereCriteria as $field => $value) {
+                    $query->orWhere($field, $value);
+                }
+            });
+        }
+
+        if (!empty($orderBy)) {
+            foreach ($orderBy as $field => $direction) {
+                $users->orderBy($field, $direction);
             }
-            if (isset($filters['email'])) {
-                $query->where('email', 'like', '%' . $filters['email'] . '%');
-            }
-        });
+        }
 
         return $users->get();
     }

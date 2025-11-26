@@ -3,4 +3,6 @@
 use App\Http\Controllers\Api\v1\Users\UserController;
 use Illuminate\Support\Facades\Route;
 
-Route::apiResource('users', UserController::class);
+Route::middleware('auth:sanctum')->group(function () {
+    Route::apiResource('users', UserController::class)->middleware('role:admin');
+});

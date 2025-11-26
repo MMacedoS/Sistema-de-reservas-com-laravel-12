@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Middleware\CheckPermissionMiddleware;
+use App\Http\Middleware\CheckRoleMiddleware;
+use App\Http\Middleware\ForceJsonResponse;
 use Illuminate\Foundation\Application;
 use Illuminate\Foundation\Configuration\Exceptions;
 use Illuminate\Foundation\Configuration\Middleware;
@@ -12,7 +15,17 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware): void {
-        $middleware->prependToGroup('api', [App\Http\Middleware\ForceJsonResponse::class]);
+        $middleware->prependToGroup(
+            'api',
+            [
+                ForceJsonResponse::class
+            ]
+        );
+
+        $middleware->alias([
+            'permission' => CheckPermissionMiddleware::class,
+            'role'       => CheckRoleMiddleware::class,
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions): void {
         //

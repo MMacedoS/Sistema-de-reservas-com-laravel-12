@@ -14,6 +14,8 @@ class UserTransformer
             'id' => $user->uuid,
             'name' => $user->name,
             'email' => $user->email,
+            'role' => $user->role,
+            'status' => $user->status,
             'created_at' => $user->created_at->toDateTimeString(),
             'updated_at' => $user->updated_at->toDateTimeString(),
         ];
@@ -24,6 +26,6 @@ class UserTransformer
         if ($users->isEmpty()) {
             return [];
         }
-        return array_map([$this, 'transform'], $users->toArray());
+        return array_values($users->map([$this, 'transform'])->toArray());
     }
 }

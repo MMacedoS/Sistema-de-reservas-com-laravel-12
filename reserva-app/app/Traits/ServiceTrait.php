@@ -11,7 +11,7 @@ trait ServiceTrait
         if (is_null($id)) {
             return null;
         }
-        return $this->model->find($id);
+        return $this->model->whereKey($id)->first();
     }
 
     private function model()
@@ -50,7 +50,7 @@ trait ServiceTrait
         if (is_null($uuid)) {
             return null;
         }
-        return $this->model->where('uuid', $uuid)->first();
+        return $this->model->whereUuid($uuid)->first();
     }
 
     public function count()

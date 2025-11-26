@@ -34,6 +34,18 @@ class UserRepositoryTest extends TestCase
         ]);
     }
 
+    public function test_create_user_Reception(): void
+    {
+        $user = $this->mockUser('recepcao@reserva.com', 'recepcionista');
+
+        $this->assertDatabaseHas('users', [
+            'email' => $user->email,
+            'name' => $user->name,
+            'role' => $user->role,
+            'status' => $user->status,
+        ]);
+    }
+
     public function test_user_status_default_active(): void
     {
         $user = $this->mockUser();
@@ -186,5 +198,87 @@ class UserRepositoryTest extends TestCase
         $result = $this->userRepository->delete(99);
 
         $this->assertFalse($result);
+    }
+
+    public function test_find_user_by_id(): void
+    {
+        $user = $this->mockUser();
+
+        $foundUser = $this->userRepository->findById($user->id);
+
+        $this->assertNotNull($foundUser);
+        $this->assertEquals($user->id, $foundUser->id);
+    }
+
+    public function test_find_user_by_wrong_id(): void
+    {
+        $foundUser = $this->userRepository->findById(99);
+
+        $this->assertNull($foundUser);
+    }
+
+    public function test_find_all_users_with_filters(): void
+    {
+        $this->mockUser();
+
+        $filters = [
+            'name' => 'Test User'
+        ];
+        $users = $this->userRepository->all($filters);
+        $this->assertNotEmpty($users);
+    }
+
+    public function test_find_all_users_with_no_matching_filters(): void
+    {
+        $this->mockUser();
+
+        $filters = [
+            'name' => 'Nonexistent User',
+            'email' => 'nonexistent@example.com',
+        ];
+        $users = $this->userRepository->all($filters);
+        $this->assertEmpty($users);
+    }
+
+    public function test_find_all_users_with_no_filters(): void
+    {
+        $this->mockUser();
+
+        $users = $this->userRepository->all();
+        $this->assertNotEmpty($users);
+    }
+
+    public function test_find_user_by_email(): void
+    {
+        $user = $this->mockUser();
+
+        $foundUser = $this->userRepository->findByEmail($user->email);
+
+        $this->assertNotNull($foundUser);
+        $this->assertEquals($user->email, $foundUser->email);
+    }
+
+    public function test_find_user_by_wrong_email(): void
+    {
+        $foundUser = $this->userRepository->findByEmail('nonexistent@example.com');
+
+        $this->assertNull($foundUser);
+    }
+
+    public function test_find_user_by_uuid(): void
+    {
+        $user = $this->mockUser();
+
+        $foundUser = $this->userRepository->findByUuid($user->uuid);
+
+        $this->assertNotNull($foundUser);
+        $this->assertEquals($user->uuid, $foundUser->uuid);
+    }
+
+    public function test_find_user_by_wrong_uuid(): void
+    {
+        $foundUser = $this->userRepository->findByUuid('nonexistent-uuid');
+
+        $this->assertNull($foundUser);
     }
 }
